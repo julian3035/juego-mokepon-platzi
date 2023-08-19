@@ -18,6 +18,7 @@ body {
     font-size: 32px;
     font-family: "Fredoka One", cursive;
 }
+
 .subtitulo {
     color: white;
 }
@@ -74,4 +75,21 @@ input {
     width: 100px;
     color: white;
     font-family: "popins", sans-serif;
+}
+
+#mensajes {
+    width: 280px;
+    background: #EEEEEE;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "popins", sans-serif;
+}
+
+#boton-reiniciar {
+    border: none;
+    color: #11468f
 }
