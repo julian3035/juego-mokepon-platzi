@@ -23,6 +23,7 @@ const sectionMensajes = document.getElementById('resultado')
 const ataquesDelJugador = document.getElementById('ataques-del-jugador')
 const ataquesDelEnemigo = document.getElementById('ataques-del-enemigo')
 
+let mokepones = []
 let ataqueJugador
 let ataqueEnemigo
 let vidasJugador = 3
@@ -41,6 +42,10 @@ let hipodoge = new Mokepon ('Hipodoge', './assets/mokepons_mokepon_hipodoge_atta
 let Capipepo = new Mokepon ('Capipepo', './assets/mokepons_mokepon_capipepo_attack.webp', 5)
 
 let Ratigueya = new Mokepon ('Ratigueya', './assets/mokepons_mokepon_ratigueya_attack.webp', 5)
+
+mokepones.push(hipodoge, Capipepo, Ratigueya)
+
+console.log(mokepones)
 
 function iniciarJuego() {
     
