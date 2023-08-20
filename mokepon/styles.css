@@ -93,3 +93,8 @@ input {
     border: none;
     color: #11468f
 }
+
+.ataques {
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
